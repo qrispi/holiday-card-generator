@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <div class="border">
+        <main class="wrapper">
+            <section class="form">
+            <h1>Holiday Card Generator</h1>
+            <label for="card-to">To:</label>
+            <input type="text" id="card-to">
+            <label for="card-from">From:</label>
+            <input type="text" id="card-from">
+            <label for="card-title">Card Title:</label>
+            <input type="text" id="card-title">
+            <label for="card-body">Card Body:</label>
+            <textarea id="card-body"></textarea>
+            <label for="card-color">Bonus! Choose your own font color:</label>
+            <input type="text" id="card-color">
+            <label for="card-image">Bonus! Choose your own background:</label>
+            <select name="card-image" id="card-image">
+                <option disabled selected value> -- select an option -- </option>
+                <option value="url(https://images.unsplash.com/photo-1422207134147-65fb81f59e38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1558&q=80)">Cozy</option>
+                <option value="url(https://www.thriftymommastips.com/wp-content/uploads/2020/12/Copy-of-Untitled-Design-77-1140x641.png)">Snowmen</option>
+                <option value="url(https://thomaskinkade.com/wp-content/uploads/2017/11/sanwrk.jpg)">Santa's Workshop</option>
+                <option value="url(https://abc6onyourside.com/resources/media2/16x9/full/1015/center/80/dedb2048-2a65-4f71-89a0-e35dade11f5c-large16x9_6.jpg)">Christmas Trees</option>
+            </select>
+            <button class="button">Make My Card!</button>
+            </section>
+            <section class="card">
+            <div class="card-body">
+                <h1 class="card-title">Happy Card Title!</h1>
+                <p class="card-paragraph">Your special message to that special someone goes here!</p>
+                <p class="card-to">To: ???</p>
+                <p class="card-from">From: ???</p>
+            </div>
+            </section>
+        </main>
+    </div>
+    <script type="text/javascript" src="./main.js"></script>
+  </body>
+</html>
